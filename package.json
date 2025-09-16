@@ -1,0 +1,29 @@
+{
+  "name": "fullstack-app-backend",
+  "version": "1.0.0",
+  "description": "Full-stack application with Node.js backend and database integration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "node server-dev.js",
+    "dev": "nodemon server-dev.js",
+    "dev:db": "nodemon server.js",
+    "setup-db": "node setup-db.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
